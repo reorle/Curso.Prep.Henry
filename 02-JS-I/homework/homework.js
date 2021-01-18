@@ -59,14 +59,14 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x == y) {return true;} else {return false;} 
+  if (x === y) {return true;} else {return false;} 
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.lenght == str2.lenght) {return true;} else {return false;}
+  if ('str1.lenght' === 'str2.lenght') {return true;} else {return false;}
 }
 
 function menosQueNoventa(num) {
@@ -93,14 +93,14 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 == 0 ) return true; else return false;
+  if (num % 2 === 0 ) return true; else return false;
 } 
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num%2 != 0) return true; else return false;
+  if (num%2 !==push 0) return true; else return false;
 }
 
 function elevarAlCuadrado(num) {
